@@ -1,4 +1,4 @@
-setwd('C:/Users/Arjun/OneDrive - University of North Carolina at Chapel Hill/ROR-TWAS/ROR Permutations')
+
 analyzeOnThis = fread('analyzeOnThis_herit.csv')
 analyzeOnThis_White = subset(analyzeOnThis,Race=="White")
 analyzeOnThis_Black = subset(analyzeOnThis,Race=="Black")
